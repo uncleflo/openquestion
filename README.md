@@ -15,3 +15,11 @@ Admin can log in using a ?admin=PASSHERE, and logout using anything else. A conf
 - The public visitors can add their own answers to the questions. This allows the questionnaire to be adjusteable to what the users think, rather than to what the site admin thinks the users think.
 - Very simple, no admin dashboard.
 - Ideal for quick investigations.
+
+## Installation
+
+Just add include_once("openquestion.php"); somewhere inside your php file, where you wish to display the questionnaire, and alter the config.php to connect to a database. Tables can be prefixed.
+
+## Todo
+
+Currently, the openquestion logic relies on bootstrap. This should not have templates, but could be hard to solve..
