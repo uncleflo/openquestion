@@ -1,5 +1,7 @@
 # Open Question
 
+A questionnaire with open and transformable questions
+
 ## Description
 
 This is a very quick and small project, to quickly create a configureable questionnaire on a website.
